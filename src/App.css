@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>div {
+    width: 1000px;
+    margin-top: 100px;
+}
+
+h1,
+p {
+    font-family: Lato;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+thead tr th {
+    height: 40px;
+    background-color: #309ec0;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #bddeee;
+}
+
+th,
+td {
+    padding: 8px;
+    overflow-wrap: break-word;
+}
+
+.pagination-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
